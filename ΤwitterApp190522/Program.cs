@@ -12,9 +12,9 @@ Console.WriteLine("Hello, World!");
 
 var stream = userClient.Streams.CreateFilteredStream();
 stream.AddTrack("java");
-stream.AddTrack("javascript");
 stream.AddTrack("python");
-stream.AddTrack("c#");
+stream.AddTrack("csharp");
+stream.AddTrack("javascript");
 
 stream.MatchingTweetReceived += (sender, eventReceived) =>
 {
