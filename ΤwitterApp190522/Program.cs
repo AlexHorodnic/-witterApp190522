@@ -18,6 +18,11 @@ stream.AddTrack("python");
 stream.AddTrack("csharp");
 stream.AddTrack("javascript");
 
+int counter1 = 0;
+int counter2 = 0;
+int counter3 = 0;
+int counter 4 = 0;
+
 stream.MatchingTweetReceived += (sender, eventReceived) =>
 {
     Console.WriteLine(eventReceived.Tweet);
